@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">PanToDo</string>
+    <string name="slogan">Selesaikan Tugas</string>
+    <string name="loading">Memuat</string>
+    <string name="current_lang">Indonesia</string>
+
+    <string name="welcome_select">Selamat Datang,</string>
+    <string name="welcome_select_desc">Pilih salah satu!</string>
+    <string name="login">Masuk</string>
+    <string name="signup">Daftar</string>
+    <string name="continue_guest">Lanjut sebagai tamu</string>
+
+    <string name="login_title">Selamat datang,</string>
+    <string name="login_desc">Senang bertemu denganmu!</string>
+    <string name="signup_title">Buat Akun,</string>
+    <string name="signup_desc">untuk memulai sekarang!</string>
+
+    <string name="email_hint">Masukkan Email Anda</string>
+    <string name="pass_hint">Masukkan Kata Sandi</string>
+    <string name="confirm_pass_hint">Konfirmasi Kata Sandi</string>
+
+    <string name="forgot_pass">Lupa Kata Sandi?</string>
+    <string name="btn_login">Masuk</string>
+    <string name="btn_signup">Daftar</string>
+
+    <string name="or_login">Atau Masuk dengan</string>
+    <string name="or_signup">Atau Daftar dengan</string>
+    <string name="google_btn">Lanjut dengan Google</string>
+
+    <string name="no_account">Belum punya akun? Daftar Sekarang</string>
+    <string name="has_account">Sudah punya akun? Masuk Sekarang</string>
+
+    <string name="forgot_title">Lupa Kata Sandi</string>
+    <string name="forgot_desc">Masukkan alamat email Anda untuk menerima kode verifikasi.</string>
+    <string name="btn_send">Kirim</string>
+    <string name="back_to_login">← Kembali ke Masuk</string>
+
+    <string name="otp_title">Atur Ulang Sandi</string>
+    <string name="otp_desc">Kami mengirim kode ke email@example.com</string>
+    <string name="btn_continue">Lanjut</string>
+    <string name="resend_code">Tidak menerima kode? Kirim Ulang</string>
+
+    <string name="reset_title">Atur Sandi Baru</string>
+    <string name="reset_desc">Buat kata sandi baru yang aman dan mudah diingat.</string>
+    <string name="btn_reset">Atur Ulang Sandi</string>
+
+    <string name="success_reset">Sandi Berhasil Diatur!</string>
+    <string name="success_desc">Kata sandi Anda berhasil diatur ulang. Klik di bawah untuk masuk.</string>
+
+    <string name="welcome_main">Selamat Datang,</string>
+    <string name="welcome_sub">Ayo Buat Tugas</string>
+    <string name="btn_continue_home">Lanjut</string>
+
+    <string name="task_list_title">Daftar Tugas</string>
+    <string name="search_hint">Cari tugas...</string>
+    <string name="btn_new_task">Tugas Baru</string>
+    <string name="no_task">Belum ada tugas</string>
+
+    <string name="new_task_title">Tugas Baru</string>
+    <string name="title_hint">Judul (Maks 25 Karakter)</string>
+    <string name="desc_hint">Deskripsi</string>
+    <string name="btn_save">Simpan</string>
+    <string name="error_title">Judul wajib diisi!</string>
+
+    <string name="selected_count">%d Dipilih</string>
+
+    <string name="menu_all">Semua Tugas</string>
+    <string name="menu_trash">Sampah</string>
+    <string name="menu_setting">Pengaturan</string>
+    <string name="menu_feedback">Masukan</string>
+    <string name="menu_logout">Keluar</string>
+
+    <string name="trash_title">Sampah</string>
+    <string name="trash_info">Akan hilang permanen setelah 30 hari</string>
+
+    <string name="setting_title">Pengaturan</string>
+    <string name="cat_personal">Personalisasi</string>
+    <string name="cat_cache">Cache</string>
+    <string name="cat_credit">Kredit</string>
+    <string name="lang_label">Bahasa\nBawaan sistem</string>
+    <string name="theme_label">Tema\nBawaan sistem</string>
+    <string name="cache_label">Hapus cache\nHapus semua cache aplikasi</string>
+    <string name="cachesize_label">Cache size\nUkuran cache diatur pada 250 MB</string>
+    <string name="cred_special_label">Kredit Spesial\nRouSoft Private</string>
+    <string name="version_label">PanToDo\nv0.1.1a (alpha)</string>
+
+    <string name="feedback_title">Masukan</string>
+    <string name="msg_hint">Pesan Anda</string>
+    <string name="btn_send_feedback">Kirim</string>
+
+    <string name="logout_confirm_title">Keluar?</string>
+    <string name="logout_confirm_msg">Anda harus masuk lagi nanti. Lanjutkan?</string>
+    <string name="btn_stay">Batal</string>
+    <string name="btn_logout">Keluar</string>
+</resources>

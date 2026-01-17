@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_blue">#0f52ba</color>
+    <color name="brand_blue_dark">#083d8f</color> <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="text_grey">#757575</color>
+    <color name="gray_text">#757575</color>
+    <color name="gray_outline">#939393</color>
+    <color name="divider">#EEEEEE</color>
+
+    <color name="selected_blue">#E3F2FD</color> </resources>

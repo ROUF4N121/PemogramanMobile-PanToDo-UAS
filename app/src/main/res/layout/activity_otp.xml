@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otp_title"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otp_desc"
+        android:textSize="24sp"
+        android:fontFamily="@font/montserrat_regular"
+        android:textAlignment="center"
+        android:textColor="@color/text_grey"
+        android:layout_marginTop="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <EditText
+            android:id="@+id/otp1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_otp_box"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"/>
+
+        <EditText
+            android:id="@+id/otp2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_otp_box"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"/>
+
+        <EditText
+            android:id="@+id/otp3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_otp_box"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"/>
+
+        <EditText
+            android:id="@+id/otp4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_otp_box"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnVerify"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/brand_blue"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/btn_continue"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resend_code"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/brand_blue"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvBackToLoginOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_to_login"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/text_grey"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>
